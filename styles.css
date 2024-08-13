@@ -1,0 +1,23 @@
+
+body {
+    /* background: url("https://media.theeverygirl.com/wp-content/uploads/2024/06/the-everygirl-feature--1-720x480.jpg"); */
+    background: url("https://livestorm.imgix.net/1127/1678183732-vbl-02.jpg?fm=png&auto=format");
+    background-size: 100%;
+    background-position: center;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    margin: 200px auto;
+}
+
+/* Glass Card */
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
